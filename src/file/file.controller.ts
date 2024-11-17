@@ -17,7 +17,6 @@ export const store = async (
 
   // 所属内容
   const { post: postId } = request.query;
-
   // 文件信息
   const fileInfo = _.pick(request.file, [
     'originalname',

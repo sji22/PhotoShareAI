@@ -32,7 +32,6 @@ export const index = async (
   } catch (error) {
     next(error);
   }
-
   try {
     const posts = await getPosts({
       sort: request.sort,
@@ -57,7 +56,7 @@ export const store = async (
   // 准备数据
   const { title, content } = request.body;
   const { id: userId } = request.user;
-
+ console.log(request.body);
   // 创建内容
   try {
     const data = await createPost({ title, content, userId });

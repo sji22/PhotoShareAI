@@ -49,7 +49,7 @@ export const defaultErrorHandler = (
       break;
     case 'PASSWORD_DOES_NOT_MATCH':
       statusCode = 400;
-      message = '密码不对';
+      message = '密码错误'; 
       break;
     case 'UNAUTHORIZED':
       statusCode = 401;

@@ -1,8 +1,8 @@
 {
   "name": "xb2-node",
   "version": "1.0.0",
-  "description": "《小白的开发之路：Node.js 服务端应用开发实践》项目代码",
-  "author": "wanghao <wanghao@ninghao.net>",
+  "description": "A Node.js Backend Framework",
+  "author": "shi",
   "scripts": {
     "start:dev": "tsc-watch --onSuccess \"node dist/main.js\"",
     "format": "prettier --write \"src/**/*.ts\"",
